@@ -1,0 +1,14 @@
+.aside-nav__list {
+    margin: 0 0 28px 0;
+    padding: 25px 25px 0 28px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.aside-nav__link {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}

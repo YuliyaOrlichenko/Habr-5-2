@@ -1,0 +1,20 @@
+.main-nav {
+    padding: 15px 0;
+}
+
+.main-nav__list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(7, auto);
+    gap: 0 29px;
+}
+
+.main-nav__link {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+    color: #FFFFFF;
+}

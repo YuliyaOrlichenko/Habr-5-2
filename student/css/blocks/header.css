@@ -1,0 +1,107 @@
+.header {
+    background: linear-gradient(180deg, #6E48DB 0%, #9E5FC4 100%);    
+}
+
+.header__top {
+    display: grid;
+    grid-template-columns: 1fr 140px 1fr;
+    gap: 0 20px;
+    padding: 15px 0 10px 0;
+    border-bottom: 2px solid #FFFFFF33;
+    align-items: center;
+    margin: 0;
+}
+
+.header__about-us {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin: 0;
+    align-items: center;
+    padding: 0;
+}
+
+.header__about-travelagency {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.header__safety {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.header__gallery {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.header__logo {
+    display: block;
+    align-items: center;
+    padding: 0;
+}
+
+.header__users {
+    display: flex;
+    gap: 0 20px;
+    align-items: center;
+    justify-content: flex-end;
+    min-height: 40px;
+    margin: 0;
+    padding: 0;
+}
+
+.header__user-list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 0 30px;
+    height: 40px;
+}
+
+.header__user-link {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.header__user-text {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.header__user-like {
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    border: none;
+    /*margin: 10px 9px;*/
+    padding: 0;
+    margin: 0;
+}
+
+.header__burger {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    margin: 0;
+}

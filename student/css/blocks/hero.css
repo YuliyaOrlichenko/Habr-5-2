@@ -1,0 +1,181 @@
+.hero {
+    margin: 0;
+    padding: 0 0 80px;
+}
+
+.hero__page {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.hero__list {
+    width: 820px;
+    min-height: 1300px;
+    margin: 0 0 40px;
+    padding: 0;
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 365px auto auto 240px;
+    grid-template-rows: 315px 255px auto auto 335px;
+    gap: 25px 20px;
+}
+
+.hero__item {
+    padding: 0;
+    margin: 0;
+}
+
+.hero__img {
+    display: block;
+    padding: 0;
+    border-radius: 8px;
+    margin: 0 0 5px 0;
+}
+
+.hero__text {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 15px;
+    float: right;
+    color: rgba(36, 36, 36, 0.5);
+}
+
+.hero__item--first {
+    grid-column: span 2;
+    width: 500px;
+    height: 300px;
+}
+
+.hero__img-first {
+    width: 500px;
+    height: 300px;
+    margin: 0 0 5px 0;
+}
+
+.hero__item--second {
+    grid-column: span 2;
+    width: 365px;
+    height: 300px;
+}
+
+.hero__img-second {
+    width: 365px;
+    height: 300px;
+    margin: 0 0 5px 0;
+}
+
+.hero__item--third {
+    grid-row: span 2;
+    width: 365px;
+    height: 410px;
+}
+
+.hero__img-third {
+    width: 365px;
+    height: 410px;
+}
+
+.hero__item--fourth {
+    grid-column: span 2;
+    width: 240px;
+    height: 240px;
+}
+
+.hero__img-fourth {
+    width: 240px;
+    height: 240px;
+}
+
+.hero__item--fifth {
+    width: 240px;
+    height: 240px;
+}
+
+.hero__img-fifth {
+    width: 240px;
+    height: 240px;
+}
+
+.hero__item--sixth {
+    grid-column: span 3;
+    grid-row: span 2;
+    width: 500px;
+    height: 300px;
+}
+
+.hero__img-sixth {
+    width: 500px;
+    height: 300px;
+}
+
+.hero__item--seventh {
+    grid-row: span 2;
+    width: 365px;
+    height: 490px;
+}
+
+.hero__img-seventh {
+    width: 365px;
+    height: 490px;
+}
+
+.hero__item--eighth {
+    grid-column: span 2;
+    width: 240px;
+    height: 320px;
+}
+
+.hero__img-eighth {
+    width: 240px;
+    height: 320px;
+}
+
+.hero__item-ninth {
+    width: 240px;
+    height: 320px;
+}
+
+.hero__img-ninth {
+    width: 240px;
+    height: 320px;
+}
+
+.hero__show-more {
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    text-align: center;
+    color: #9E5FC4;
+    padding: 14px 395px 14px 396px;
+    background-color: transparent;
+    border: 1px solid #9E5FC4;
+    border-radius: 60px;
+}
+
+.hero__countries {
+    width: 215px;
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    min-height: 451px;
+    height: 100%;
+}
+
+.hero__pickup-tours {
+font-size: 14px;
+font-weight: 500;
+line-height: 18px;
+text-align: left;
+color: #FFFFFF;
+background-color: #9E5FC4;
+border-radius: 60px;
+padding: 12px 26px 12px 26px;
+margin: 0 25px 20px 28px;
+border-color: transparent;
+}
+
+.hero__figure {
+    margin: 0;
+    padding: 0;
+}
